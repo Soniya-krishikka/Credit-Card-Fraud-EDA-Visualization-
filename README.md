@@ -63,35 +63,6 @@ pip install pandas numpy seaborn matplotlib folium
     python analysis.py
     ```
 
-## Visualizations
-
-### 1. Merchant Fraud Rates
-
-![Merchant Fraud Rates](images/merchant_fraud_rates.png)
-
-### 2. City Fraud Counts and Rates
-
-![City Fraud Counts](images/city_fraud_counts.png)
-![City Fraud Rates](images/city_fraud_rates.png)
-
-### 3. Fraudulent Transactions by Hour and Month
-
-![Fraudulent Transactions by Hour](images/fraudulent_transactions_hour.png)
-![Fraudulent Transactions by Month](images/fraudulent_transactions_month.png)
-
-### 4. Fraud by Job and Age Group
-
-![Fraud by Job](images/fraud_by_job.png)
-![Fraud by Age Group](images/fraud_by_age_group.png)
-
-### 5. Fraud Map Visualization
-
-A geographical map visualizing the locations of transactions:
-
-```python
-m.save('map_from_dataframe_123.html')
-```
-
 ## Contributing
 
 Contributions are welcome! Please fork this repository and submit pull requests with your improvements or fixes.
